@@ -1,0 +1,9 @@
+main{
+    height: 200px;
+    width: 200px;
+    border: solid 2px black;
+    border-radius: 5px;
+}
+.dynamicStyle{
+    background-color: red;
+};
