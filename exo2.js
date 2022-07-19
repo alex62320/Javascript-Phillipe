@@ -24,8 +24,6 @@ fetch("https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-
 // On va recevoir du JSON: le premier then contiendra donc response => response.json()
 // C’est magique, la fonction du second then est notre JSON déjà parsé ! Rien à faire, c’est un objet JS valide
 
-myJSON = "https://pachyderme.net/students.json";
-
 fetch("https://pachyderme.net/students.json")
     .then(response => response.json())
     .then(function (popStudents){
