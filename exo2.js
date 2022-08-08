@@ -40,7 +40,7 @@ fetch("https://pachyderme.net/students.json")
             document.querySelector('#student').appendChild(newStudent);
         });
     });
-
+    
 // exercice 3 
 // 
 // Vous allez créer une page web avec un champ d’input pour enregistrer en localStorage un nom de promotion.
